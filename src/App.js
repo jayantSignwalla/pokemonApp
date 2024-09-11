@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div className="pokemon-container">
-      <h1>Pokémon List</h1>
+      <h1>Pokémon List 2</h1>
       <div className="pokemon-list">
         {pokemonList.map((pokemon) => (
           <div className="pokemon-card" key={pokemon.id}>
